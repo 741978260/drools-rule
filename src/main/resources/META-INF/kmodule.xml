@@ -1,0 +1,5 @@
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="my-test" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="test">
+        <ksession name="my-test" type="stateless" default="true" clockType="realtime"/>
+    </kbase>
+</kmodule>
